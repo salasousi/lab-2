@@ -1,0 +1,40 @@
+def GetANumber (Message, LowValue, HighValue):
+    Answer = LowValue - 1
+    while (Answer < LowValue) or (Answer > HighValue):
+        try:
+            Answer = float(input(Message + "[" + str(LowValue) + "" + str(HighValue) + "]"))
+        
+        except:
+            Answer = LowValue - 1
+    return Answer
+
+
+def PadLeft (S, Digits):
+    while (len (S) < Digits):
+        S = " " + S
+    return S
+    S = input("Enter Interest Rate: ")
+    S = PadLeft(S, Digits)
+    S = input("Enter Service Charge: ")
+    return S
+
+
+def Main ():
+
+    n = 0 
+    Amount = 24
+    S = S + PadLeft(GetANumber(Interest, 0, 0.1))
+    S = S + PadLeft(GetANumber(Service, 0, 10))
+    S = S + ""
+
+
+    For n in range(1626, 2022,[1]) if n <= 1640 and n >= 2010:
+        print n and amount
+        
+    #while True Counter < 1640 <:
+      #  Counter = Counter + 1
+       # while (Counter >
+
+    return 
+    
+
